@@ -1,0 +1,61 @@
+/* Estilo Index + Contato */
+
+body {
+    background-color: lightpink;
+    font-size: 15px;
+    font-family: verdana;
+} 
+
+  h1, h2 {
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+      font-size: 35px;
+      color: black;
+      background-color: #94CAFF;
+      padding: 10px;
+  }
+
+.container {
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem {
+    border-radius: 50%;
+}
+
+.wh {
+    width: 200px;
+    height: 200px;
+    padding: 30px;
+}
+
+#menu li {
+    display: inline;
+    padding: 15px;
+    color: black;
+    background-color: #94CAFF;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+#menu li a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+
+}
+
+#menu li a:hover {
+    background-color: hotpink;
+    padding: 15px;
+}
+
+/* Estilo Exclusivo Contato */
+
+  button {
+  height: 35px; 
+  width: 100px;   
+  color: white;
+  background-color: hotpink;
+  }
